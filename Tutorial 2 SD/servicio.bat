@@ -1,0 +1,1 @@
+"C:\Program Files\Java\jdk1.6.0_25\bin\java" -jar winstone-0.9.10.jar --httpPort=8089 --commonLibFolder=library --useJasper=true --webappsDir=webapps

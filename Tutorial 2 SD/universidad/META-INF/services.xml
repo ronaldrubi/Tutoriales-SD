@@ -1,0 +1,18 @@
+<service>
+<parameter name="ServiceClass" locked="false">servicio.Universidad</parameter>
+   <operation name="findProfesor">
+     <messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>
+   </operation>
+   <operation name="insertProfesor">
+     <messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>
+   </operation> 
+   <operation name="updateProfesor">
+     <messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>
+   </operation> 
+   <operation name="deleteProfesor">
+     <messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>
+   </operation> 
+   <operation name="findAllProfesor">
+     <messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>
+   </operation> 
+</service>
